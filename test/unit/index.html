@@ -11,6 +11,14 @@
 	<script src="../../respond.src.js"></script>
 	<script src="tests.js"></script>
 
+	<style type="text/css">
+	  @media (min-width: 1300px) {
+	    #testelem {
+	      background: red;
+      }
+	  }
+	</style>
+
 </head>
 <body>
 	<h1 id="qunit-header">Respond.js Test Suite</h1>
@@ -18,12 +26,12 @@
 	<div id="qunit-testrunner-toolbar"></div>
 	<h2 id="qunit-userAgent"></h2>
 	<ol id="qunit-tests"></ol>
-	
+
 	<!-- tests must run in new window -->
 	<div id="launcher"></div>
-	
+
 	<!-- elem for applying css via queries -->
 	<div id="testelem" class="foo">test</div>
-	
+
 </body>
 </html>
